@@ -1,13 +1,15 @@
 <template>
   <nav>
-    <nuxt-link to="/">HOME</nuxt-link>
-    <nuxt-link to="/cool">cool</nuxt-link>
+    <a href="/">home</a>
+    <a href="#">contact</a>
+    <a href="/blog">blog</a>
   </nav>
 </template>
 
-<style lang="sass"scoped>
-a
-  color: blue
-  &:hover
-    color: red
+<style lang="sass">
+nav
+  background-color: #e74c3c
+  height: 50px
 </style>
+
+
